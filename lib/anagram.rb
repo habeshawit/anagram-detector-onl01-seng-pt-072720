@@ -12,7 +12,7 @@ class Anagram
        end 
      new_array
      
-     #array.select {|x| x.split("").sort == @name.split("").sort} -> would work
+     #array.select {|x| x.split("").sort == @name.split("").sort} -> would work too
 
      
   end
