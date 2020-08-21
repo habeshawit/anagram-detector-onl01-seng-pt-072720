@@ -15,7 +15,6 @@ class Anagram
      #array.select {|x| x.split("").sort == @name.split("").sort} -> would work too
      array.select{|x| x.chars.sort == @word.chars.sort}
 
-     
   end
   
 end
